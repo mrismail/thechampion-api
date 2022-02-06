@@ -1,3 +1,5 @@
+server:
+  port: 6060
 spring:
   datasource:
     driverClassName: org.h2.Driver
@@ -13,10 +15,6 @@ spring:
     defer-datasource-initialization: true
   h2:
     console.enabled: true
-
-server:
-  port: 6060
-
 springdoc:
   api-docs:
     enabled: true
