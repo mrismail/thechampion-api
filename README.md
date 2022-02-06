@@ -1,4 +1,4 @@
-# TheChampion-api:
+# TheChampion API
 
 
 ### About:
