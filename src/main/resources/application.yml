@@ -10,8 +10,8 @@ spring:
     database-platform: org.hibernate.dialect.H2Dialect
     show-sql: true
     hibernate:
-      ddl-auto: create
-    generate-ddl: true
+      ddl-auto: none
+    generate-ddl: false
     defer-datasource-initialization: true
   h2:
     console.enabled: true

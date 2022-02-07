@@ -9,11 +9,12 @@ import java.time.LocalDate;
 @Data
 @Entity
 @Table(name = "matches")
+@SequenceGenerator(name = "match_sequence", sequenceName = "matches_sequence", allocationSize = 1, initialValue = 1)
 public class Match {
 
 	@Id
 	@Column(name = "match_id")
-	@GeneratedValue(strategy = GenerationType.AUTO)
+	@GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "match_sequence")
 	private int id;
 
 	@ManyToOne(fetch = FetchType.LAZY)
@@ -28,6 +29,7 @@ public class Match {
 
 	private int playerTwoScore;
 
+	@JoinColumn(name = "round_id")
 	@ManyToOne(fetch = FetchType.LAZY)
 	private Round round;
 

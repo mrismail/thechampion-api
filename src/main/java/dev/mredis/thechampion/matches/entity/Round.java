@@ -9,11 +9,12 @@ import java.util.List;
 @Data
 @Entity
 @Table(name = "rounds")
+@SequenceGenerator(name = "round_sequence", sequenceName = "rounds_sequence", allocationSize = 1, initialValue = 1)
 public class Round {
 	
 	@Id
 	@Column(name = "round_id")
-	@GeneratedValue(strategy = GenerationType.AUTO)
+	@GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "round_sequence")
 	private int id;
 
 	private String name;

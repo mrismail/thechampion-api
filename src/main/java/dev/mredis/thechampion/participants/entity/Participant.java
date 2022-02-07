@@ -12,7 +12,7 @@ import static javax.persistence.CascadeType.PERSIST;
 @Data
 @Entity
 @Table(name = "participants")
-@SequenceGenerator(name = "participant_sequence", sequenceName = "participant_sequence", allocationSize = 5, initialValue = 7)
+@SequenceGenerator(name = "participant_sequence", sequenceName = "participants_sequence", allocationSize = 1, initialValue = 1)
 public class Participant {
 	@Id
 	@Column(name = "participant_id")

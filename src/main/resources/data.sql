@@ -1,12 +1,12 @@
-INSERT INTO participants (participant_id, name, mail) VALUES (1, 'M.Ismail', 'm.ismail@m.com');
-INSERT INTO participants (participant_id, name, mail) VALUES (2, 'A.Amr', 'a.amr@m.com');
-INSERT INTO participants (participant_id, name, mail) VALUES (3, 'M.Khaled', 'm.khaled@m.com');
-INSERT INTO participants (participant_id, name, mail) VALUES (4, 'Omar', 'omar@m.com');
-INSERT INTO participants (participant_id, name, mail) VALUES (5, 'M.Galal', 'm.galal@m.com');
-INSERT INTO participants (participant_id, name, mail) VALUES (6, 'Galala', 'galala@m.com');
--- INSERT INTO participants (id, name) VALUES (7, '');
--- INSERT INTO participants (id, name) VALUES (8, '');
--- INSERT INTO participants (id, name) VALUES (9, '');
--- INSERT INTO participants (id, name) VALUES (10, '');
--- INSERT INTO participants (id, name) VALUES (11, '');
--- INSERT INTO participants (id, name) VALUES (12, '');
+INSERT INTO PARTICIPANTS (NAME, MAIL) VALUES ('M.Ismail', 'm.ismail@m.com');
+INSERT INTO PARTICIPANTS (NAME, MAIL) VALUES ('A.Amr', 'a.amr@m.com');
+INSERT INTO PARTICIPANTS (NAME, MAIL) VALUES ('M.Khaled', 'm.khaled@m.com');
+INSERT INTO PARTICIPANTS (NAME, MAIL) VALUES ('Omar', 'omar@m.com');
+INSERT INTO PARTICIPANTS (NAME, MAIL) VALUES ('M.Galal', 'm.galal@m.com');
+INSERT INTO PARTICIPANTS (NAME, MAIL) VALUES ('Galala', 'galala@m.com');
+INSERT INTO PARTICIPANTS (NAME, MAIL) VALUES ('M.Yehia', 'm.yehia@m.com');
+INSERT INTO PARTICIPANTS (NAME, MAIL) VALUES ('A.Amry', 'a.amry@m.com');
+INSERT INTO PARTICIPANTS (NAME, MAIL) VALUES ('A.Khaled', 'a.khaled@m.com');
+INSERT INTO PARTICIPANTS (NAME, MAIL) VALUES ('Amry', 'amry@m.com');
+INSERT INTO PARTICIPANTS (NAME, MAIL) VALUES ('M.Ziton', 'm.ziton@m.com');
+
