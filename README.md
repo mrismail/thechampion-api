@@ -2,7 +2,7 @@
 
 
 ### About:
-The champion As an initiative a tennis-table league has to be design for team members inside the digital factory, allowing all staff to participate
+The champion API is an initiative for a tennis-table league has to be design for team members allowing all staff to participate
 and randomly manages the matches of all participants and compose a league of 3 matches a day and maximum 12 participants.
 
 ### How to build  and run:
